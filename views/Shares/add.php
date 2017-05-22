@@ -4,6 +4,9 @@
   </div>
   <div class="panel-body">
     <form method="post" action="<?php $_SERVER['PHP_SELF']; ?>">
+
+      <input type="text" name="id" hidden value="<?php echo $_SESSION['user_data']['id']; ?>">
+
       <div class="form-group">
         <label for="title">Share Title</label>
         <input type="text" class="form-control" id="title" placeholder="" name="title">

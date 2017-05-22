@@ -5,6 +5,8 @@
     <title>Shareboard</title>
     <link rel="stylesheet" href="<?php echo ROOT_PATH; ?>assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo ROOT_PATH; ?>assets/css/style.css">
+    <script src="<?php echo ROOT_PATH; ?>assets/js/bootstrap.min.js" charset="utf-8"></script>
+
   </head>
   <body>
     <nav class="navbar navbar-default">
@@ -43,5 +45,6 @@
         <?php require($view) ?>
       </div>
     </div><!-- /.container -->
+    <script src="<?php echo ROOT_PATH; ?>assets/js/jquery-3.1.1.min.js" charset="utf-8"></script>
   </body>
 </html>

@@ -24,7 +24,7 @@ class ShareModel extends Model
       $this->bind(':title', $post['title']);
       $this->bind(':body', $post['body']);
       $this->bind(':link', $post['link']);
-      $this->bind(':user_id', 1);
+      $this->bind(':user_id', $post['id']);
       $this->execute();
 
       // Verify
